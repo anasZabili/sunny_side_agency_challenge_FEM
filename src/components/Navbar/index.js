@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Wrapper = styled.div`
   display: flex;
   justify-content: flex-start;
-  /* align horizontally */
   align-items: center;
   margin-left: 20px;
   font-family: "Barlow", sans-serif;

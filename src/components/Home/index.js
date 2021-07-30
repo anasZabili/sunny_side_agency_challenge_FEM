@@ -1,18 +1,33 @@
 import styled from "styled-components";
+import ContentCard from "../ContentCard";
 import Header from "../Header";
+import EggImage from "../../images/desktop/image-transform.jpg";
+import GlassImage from "../../images/desktop/image-stand-out.jpg";
+import CherryImage from "../../images/desktop/image-graphic-design.jpg";
+import OrangeImage from "../../images/desktop/image-photography.jpg";
 
 const Grid = styled.div`
   align-items: center;
   align-content: center;
   display: grid;
+  /* set gap to 0 */
+  grid-gap: 0;
+
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1.5fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1.5fr 1fr 1fr 1fr; */
 `;
 
 const Home = () => {
   return (
     <Grid>
       <Header />
+      <ContentCard />
+      <ContentCard backgroundImage={EggImage} />
+      <ContentCard backgroundImage={GlassImage} />
+      <ContentCard />
+      <ContentCard backgroundImage={CherryImage} />
+      <ContentCard backgroundImage={OrangeImage} />
+
       {/* About Services Projects Contact We are creatives Transform your brand We
       are a full-service creative agency specializing in helping brands grow
       fast. Engage your clients through compelling visuals that do most of the
