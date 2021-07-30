@@ -1,7 +1,19 @@
+import styled from "styled-components";
+import Header from "../Header";
+
+const Grid = styled.div`
+  align-items: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1.5fr 1fr 1fr 1fr;
+`;
+
 const Home = () => {
   return (
-    <div>
-      About Services Projects Contact We are creatives Transform your brand We
+    <Grid>
+      <Header />
+      {/* About Services Projects Contact We are creatives Transform your brand We
       are a full-service creative agency specializing in helping brands grow
       fast. Engage your clients through compelling visuals that do most of the
       marketing for you. Learn more Stand out to the right audience Using a
@@ -17,8 +29,8 @@ const Home = () => {
       keen interest in our brand’s success made it a satisfying and enjoyable
       experience. Thomas S. Chief Operating Officer Incredible end result! Our
       sales increased over 400% when we worked with Sunnyside. Highly
-      recommended! Jennie F. Business Owner About Services Projects Contact
-    </div>
+      recommended! Jennie F. Business Owner About Services Projects Contact */}
+    </Grid>
   );
 };
 
