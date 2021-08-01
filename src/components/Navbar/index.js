@@ -12,7 +12,6 @@ const Wrapper = styled.div`
 const Title = styled.h1`
   font-size: 2em;
   color: white;
-  font-weight: bold;
   flex: 1;
 `;
 
