@@ -9,6 +9,7 @@ import Testimonials from "../Testimonials";
 import EmilyImg from "../../images/image-emily.jpg";
 import JennieImg from "../../images/image-jennie.jpg";
 import ThomasImg from "../../images/image-thomas.jpg";
+import Footer from "../Footer";
 
 const Grid = styled.div`
   align-items: center;
@@ -82,6 +83,7 @@ const Home = () => {
           employeeName={"Jennie F."}
         />
       </TestimonialsView>
+      <Footer />
     </>
   );
 };
