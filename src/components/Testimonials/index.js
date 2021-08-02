@@ -26,11 +26,33 @@ const Body = styled.p`
   line-height: 1.8;
 `;
 
-const Testimonials = ({ avatarImg, bodyContent }) => {
+const EmployeeName = styled.h3`
+  font-family: "Fraunces", sans-serif;
+  padding-bottom: -30px;
+  color: hsl(212, 27%, 19%);
+  margin-top: 0;
+  margin-bottom: 8px;
+`;
+
+const EmployeePosition = styled.p`
+  font-size: 0.9em;
+  color: hsl(210, 4%, 67%);
+  margin: 0;
+  font-family: "barlow", sans-serif;
+`;
+
+const Testimonials = ({
+  avatarImg,
+  bodyContent,
+  employeeName,
+  employeePosition,
+}) => {
   return (
     <TestimonialsCard>
       <Avatar src={avatarImg} />
       <Body>{bodyContent}</Body>
+      <EmployeeName>{employeeName}</EmployeeName>
+      <EmployeePosition>{employeeName}</EmployeePosition>
     </TestimonialsCard>
   );
 };

@@ -65,18 +65,21 @@ const Home = () => {
           bodyContent="We put our trust in Sunnyside and
       they delivered, making sure our needs were met and deadlines were always
       hit."
+          employeeName={"Emily R."}
         />
         <Testimonials
           avatarImg={ThomasImg}
           bodyContent="Marketing Director Sunnyside’s enthusiasm coupled with their
       keen interest in our brand’s success made it a satisfying and enjoyable
       experience."
+          employeeName={"Thomas S."}
         />
         <Testimonials
           avatarImg={JennieImg}
           bodyContent="Incredible end result! Our
           sales increased over 400% when we worked with Sunnyside. Highly
           recommended!"
+          employeeName={"Jennie F."}
         />
       </TestimonialsView>
     </>
